@@ -74,6 +74,7 @@ h4{
     margin-left: 338px;
     position: relative;
 }
+
 .gero{
     width: 1px;
     height: 422px;
@@ -92,23 +93,26 @@ h4{
     top: 0;
     left: 0;    
 }
+.fotoli:hover{
+    background-color: #79B331;
+}
+.boxes p:hover{
+    color: #79B331;
+
+}
 .boxes p{
     padding: 5px 10px;
     font-size: 18px;
     width: 496px;
 }
-.boxes p:hover{
-    color: #79B331;
-}
+
 .fotoli{
-    width: 70px;
-    height: 70px;
+    width: 72px;
+    height: 72px;
     border-radius: 0 35px 0 35px;
     background-color: #c4c4c4;
 }
-.fotoli:hover{
-    background-color: #79B331;
-}
+
 .flipped{
     transform: rotate(90deg);
 }
