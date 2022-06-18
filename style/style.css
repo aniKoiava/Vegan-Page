@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+body{
+    background-image: url(../img/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    width: 594px;
+    padding-top: 74px;
+    margin-left: 638px;
+}
+header nav ul{
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+header nav ul li a{
+    font-size: 18px;
+    color: #000000;
+    padding: 24px 18px;
+    background-color: #c4c4c4;
+    border-top-right-radius: 36px;
+    border-bottom-left-radius: 38px;
+}
+header nav ul li a:hover{
+    background-color: #79B331;
+    color: #ffffff;
+}
+.box{
+    width: 422px;
+    margin-top: 136px;
+    margin-left: 806px;
+    
+}
+
+.ball{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #79B331;
+    position: relative;
+    animation: animacia 2s infinite;
+}
+
+
+@keyframes animacia {
+    0%{top: 0; left: 0;}
+    25%{top: 0; left: 390px;}
+    50%{top: 156px; left: 390px;}
+    75%{top: 156px; left: 0;}
+    100%{top: 0; left: 0;}
+}
+h4{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 18px;
+    padding-bottom: 24px;
+
+}
+.dro{
+    font-size: 36px;
+    text-align: center;
+}
+
+.xe{
+    width: 1061px;
+    margin-top: 184px;
+    margin-left: 338px;
+    position: relative;
+}
+.gero{
+    width: 1px;
+    height: 422px;
+    margin-top: 74px;
+    background-color: #c4c4c4;
+    position: absolute; 
+    left: 530px;
+    
+}
+.boxes{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;    
+}
+.boxes p{
+    padding: 5px 10px;
+    font-size: 18px;
+    width: 496px;
+}
+.boxes p:hover{
+    color: #79B331;
+}
+.fotoli{
+    width: 70px;
+    height: 70px;
+    border-radius: 0 35px 0 35px;
+    background-color: #c4c4c4;
+}
+.fotoli:hover{
+    background-color: #79B331;
+}
+.flipped{
+    transform: rotate(90deg);
+}
+.pirveli{
+    top: 30px;
+}
+.meore{
+    top: 152px;
+    left: 50%;
+}
+.mesame{
+    top: 252px;
+}
+.meotxe{
+    top: 352px;
+    left: 50%;
+}
+
+
+
+
+
+
+
+
